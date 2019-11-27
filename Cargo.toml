@@ -1,0 +1,23 @@
+[package]
+name = "nats_riker"
+version = "0.1.0"
+authors = ["nhitran <nhi.tran@hawking.network>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jwt = "*"
+hyper = "*"
+rust-crypto = "*"
+actix-web = "*"
+meilies-client  = "*"
+mongodb = "*"
+serde_json  = "*"
+elastic = "*"
+uuid = "*"
+riker = "*"
+nats = "*"
+protocol = "*"
+log = "*"
+chrono = "*"
